@@ -1,0 +1,227 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" integrity="sha512-Fo3rlrZj/k7ujTnHg4CGR2D7kSs0v4LLanw2qksYuRlEzO+tcaEPQogQ0KaoGN26/zrn20ImR1DfuLWnOo7aBA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <link rel="stylesheet" href="style.css" />
+    
+    <link rel="icon" href="partes/logo3brasaburguer.png">
+
+    <ul>
+        <li><a href="#">Início</a></li>
+        <li><a href="#about">Sobre</a></li>
+        <li><a href="#products">Produtos</a></li>
+        <li><a href="#footer">Localização</a></li>
+      </ul>
+
+    <title>Brasa Burguer Hamburgueria | Peça Já!</title>
+</head>
+<body>
+<div class="bg-home">
+<header>
+<nav class="header-content container">
+<div class="header-icons">
+<a href="#">
+<i class="fa-brands fa-facebook fa-2x"></i>
+</a>
+<a href="#">
+    <i class="fa-brands fa-instagram fa-2x"></i>
+    </a>
+    <a href="#">
+        <i class="fa-brands fa-tiktok fa-2x"></i>
+        </a>
+    
+</div>
+<div class="header-logo">
+    <img src="partes/logo3brasaburguer.png" width="300px"
+    alt="logo brasaburguer">
+
+</div>
+<div>
+    <a class="header-button" href="https://wa.me/5571999606980?text=Quero+me+tornar+um+franqueado%21+%2ARestaurante+Fict%C3%ADcio+para+o+Cimatec+Jr%2A" target="_blank">
+        Seja um franqueado
+    </a>
+</div>
+</nav>
+
+<main class="hero container">
+    <h1>Comer bem faz toda a diferença.
+    </h1>
+    <p>Peça já o seu!</p>
+    <a href="https://wa.me/5571999606980?text=Fa%C3%A7a+seu+pedido+no+Brasa+Burguer%21+%2ARestaurante+Fict%C3%ADcio+para+o+Cimatec+Jr%2A" class="button-delivery" target="_blank">
+        Delivery aqui!
+    </a>
+</main>
+
+</header>
+</div>
+<section id="about" class="about">
+    <div class="about-content container">
+<div class="slider">
+    <div class="slides">
+        <input type="radio" name="radio-btn" id="radio1">
+        <input type="radio" name="radio-btn" id="radio2">
+        <input type="radio" name="radio-btn" id="radio3">
+        <input type="radio" name="radio-btn" id="radio4">
+    
+
+    <div class="slide first">
+        <img src="partes/foto3.jpg" width="500px" height="500px" alt="foto1">
+    </div>
+    <div class="slide">
+        <img src="partes/interiorburguer.png" width="500px" height="500px" alt="interior">
+    </div>
+    <div class="slide">
+        <img src="partes/produto1.jpg" width="500px" height="500px" alt="foto2">
+    </div>
+    <div class="slide">
+        <img src="partes/hamburguerfoto.jpg" width="500px" height="500px" alt="foto3">
+    </div>
+    <div class="navigation-auto">
+   <div class="auto-btn1"></div>
+   <div class="auto-btn2"></div>
+   <div class="auto-btn3"></div>
+   <div class="auto-btn4"></div>
+    </div>
+     </div>
+     <div class="manual-navigation">
+        <label for="radio1" class="manual-btn"></label>
+        <label for="radio2" class="manual-btn"></label>
+        <label for="radio3" class="manual-btn"></label>
+        <label for="radio4" class="manual-btn"></label>
+     </div>
+    
+    </div>
+<div class="about-description container"><h2><strong>Sobre nós</strong></h2>
+    <p>Aqui no Brasa Burger, você irá se deliciar com hambúrgueres suculentos e saborosos, preparados na hora, fresquinhos, com sabor de churrasco e de dar água na boca. 
+        Todos os pedidos são feitos dentro dos melhores padrões de qualidade do mercado. Nossa cozinha conta com equipamentos modernos e profissionais certificados para garantir maior segurança e qualidade no preparo dos nossos hambúrgueres.</p></div>
+    </div>
+</div>
+</div>
+</section>
+<section class="products">
+<div id="products" class="products-content container">
+    <h3>Conheça nossos</h3>
+    <h2><strong>HAMBÚRGUERES</strong></h2>
+    <section class="products-burguers">
+        <div class="products-geral">
+<div class="product1">
+<img src="partes/produto1.jpg" style="width: 20%;cursor: pointer;" alt="produto1"
+onclick="document.getElementById('modal01').style.display='block'">
+<div class="product1-info"><strong>
+    Classic Brasa Burguer
+</strong>
+<button onclick="document.getElementById('modal01').style.display='block'" style="cursor: pointer;">Ver mais</button>
+<div id="modal01" class="modal-product1" class="hide">
+    
+<div>
+    <header><h2>Classic Brasa Burguer</h2> <span onclick="document.getElementById('modal01').style.display='none'" class="button-modal">&times;</span></header>
+    <div class="modal-text">
+        <p>Hambúrguer tradicional do Brasa Burguer com maionese, tomate, alface, cebola roxa e queijo.</p>
+    </div>
+    
+</div></div>
+
+</div>
+<img src="partes/produto2.jpg" style="width:20%;cursor: pointer;" alt="produto2"
+onclick="document.getElementById('modal02').style.display='block'">
+<div class="product2-info"><strong>
+    Rustic Brasa Burguer
+</strong>
+<button onclick="document.getElementById('modal02').style.display='block'" style="cursor: pointer;">Ver mais</button>
+<div id="modal02" class="modal-product2">
+    
+<div>
+    <header><h2>Rustic Brasa Burguer</h2> <span onclick="document.getElementById('modal02').style.display='none'" class="button-modal">&times;</span></header>
+    <div class="modal-text">
+        <p>Hambúrguer rústico do Brasa Burguer feito como churrasco. Acompanhado por queijo e cebola.</p>
+    </div>
+    
+</div></div></div>
+
+<div>
+    <img src="partes/produto3.jpg" style="width: 20%; cursor: pointer;" alt="produto3"
+    onclick="document.getElementById('modal03').style.display='block'">
+    <div class="product3-info"><strong>
+        Crispy Brasa Burguer
+    </strong>
+    <button onclick="document.getElementById('modal03').style.display='block'" style="cursor: pointer;">Ver mais</button>
+    <div id="modal03" class="modal-product3">
+    
+        <div>
+            <header><h2>Crispy Brasa Burguer</h2> <span onclick="document.getElementById('modal03').style.display='none'" class="button-modal">&times;</span></header>
+            <div class="modal-text">
+                <p>Hambúrguer feito na brasa com pão australiano, queijo coalho e cebola crispy.</p>
+            </div>
+            
+        </div></div></div>
+    
+</div>
+<img src="partes/produto4.png" style="width:20%;cursor: pointer;" alt="produto4"
+onclick="document.getElementById('modal04').style.display='block'">
+<div class="product4-info"><strong>
+    Guaca Brasa Burguer
+</strong>
+<button onclick="document.getElementById('modal04').style.display='block'" style="cursor: pointer;"> Ver mais </button>
+<div id="modal04" class="modal-product4">
+    
+    <div>
+        <header><h2>Guaca Brasa Burguer</h2> <span onclick="document.getElementById('modal04').style.display='none'" class="button-modal">&times;</span></header>
+        <div class="modal-text">
+            <p>Hambúrguer mexicano acompanhado de guacamole, queijo cheddar e salada.</p>
+        </div>
+        
+    </div></div></div>
+</div>
+</div>
+<div>
+</div>
+
+</div>
+    </section>
+</div>
+</section>
+<section>
+    <div class="map">
+      <h2>
+        Encontre o Brasa Burguer mais próximo de você!
+      </h2>
+      <iframe style="width:100%"src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d15554.085255162818!2d-38.3870384!3d-12.9384585!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x716175b21015b65%3A0x498ed3b425619c7d!2sCIMATEC%20J%C3%BAnior!5e0!3m2!1spt-BR!2sbr!4v1694907453059!5m2!1spt-BR!2sbr" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe> frameborder="0">
+      
+    </div>
+</section>
+<footer class="footer">
+<div id="footer" class="footer-icons">
+    <a href="#">
+        <i class="fa-brands fa-facebook fa-2x"></i>
+        </a>
+        <a href="#">
+            <i class="fa-brands fa-instagram fa-2x"></i>
+            </a>
+            <a href="#">
+                <i class="fa-brands fa-tiktok fa-2x"></i>
+                </a>
+</div>
+<div>
+    <img src="partes/logo3brasaburguer.png" width="300px"
+    alt="logo brasaburguer">
+</div>
+<p>
+    CNPJ: 12.345.678/1011-12
+</p>
+<p>
+    © 2023 Brasa Burguer Hamburgueria
+</p>
+</footer>
+<a href="https://wa.me/5571999606980?text=Quero+falar+com+um+atendente%21+%2ARestaurante+Fict%C3%ADcio+para+o+Cimatec+Jr%2A" class="whatsapp" target="_blank">
+    <img src="partes/whatsapp-logo.png" alt="whatsapp-logo">
+</a>
+</body>
+</html>

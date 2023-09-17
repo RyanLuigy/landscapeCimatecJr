@@ -1,0 +1,81 @@
+*{
+ margin: 0;
+ padding: 0;
+ box-sizing: border-box;
+ outline: 0;
+}
+
+@import"partes/_cores.scss";
+@import"partes/_header.scss";
+@import"partes/_layout.scss";
+
+body{
+    font-family: 'poppins';
+    width: 100%;
+    height: 100vh;
+    position: relative;
+
+    background-color: $blackdefault;
+    }
+
+    svg{
+        width: 100%;
+    }
+
+    ul{
+        background-color: rgba(0, 0, 0, 0.9);
+        list-style-type: none;
+        padding: 0;
+        margin: 0;
+        width: 100%;
+        align-items: center;
+        display: flex;
+        overflow: hidden;
+        position: fixed;
+        top: 0;
+        z-index: 1;
+        border-bottom: solid 1px;
+        border-color: $white;
+        @media screen and (max-width:768px) {
+            ul{
+                display: none;
+            }
+            li{
+                display: none;
+            }
+            a{
+                display: none;
+            }
+        }
+        
+    
+    li{
+     float: left;
+     
+     
+    
+    
+    
+    a:hover{
+        background-color: $goldenrodiz;
+        display: flex;
+        display: block;
+        align-items: center;
+    padding: 20px 8px;
+    border-color: $white;
+    border-right: 2px;
+    }
+    a{
+       color: $white;
+       display: flex;
+        display: block;
+        align-items: center;
+    padding: 20px 8px;
+    border-color: $goldenrodiz;
+    border-right: solid 1px;
+    text-decoration: none;
+}
+
+    
+    }}
+    
